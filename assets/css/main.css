@@ -138,6 +138,7 @@ input, select, textarea {
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 0.5625em 0;
+		text-shadow: 1px 2px 1px black;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1785,7 +1786,8 @@ input, select, textarea {
 	}
 
 	header.major h2 {
-		color: #4acaa8;
+		color: seagreen;
+		text-shadow: 1px 2px white;
 		font-size: 3.5em;
 	}
 
@@ -1794,6 +1796,7 @@ input, select, textarea {
 			font-size: 1.75em;
 			font-weight: 700;
 			margin-top: -0.75em;
+			text-shadow: 1px 2px black;
 		}
 
 /* Form */
@@ -2402,7 +2405,7 @@ input, select, textarea {
 			}
 
 			ul.feature-icons li:before {
-				background: #4acaa8;
+				background: seagreen;
 				border-radius: 100%;
 				color: #ffffff;
 				display: block;
@@ -2700,7 +2703,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #4acaa8;
+		background: seagreen;
 		color: #d2f2e9;
 		height: 100%;
 		overflow-y: auto;
@@ -2720,7 +2723,7 @@ input, select, textarea {
 			}
 
 		#header header p {
-			color: #b7eadc;
+			color: seagreen;
 		}
 
 		#header a {
@@ -2772,7 +2775,7 @@ input, select, textarea {
 			}
 
 				#header > footer .icons li a {
-					color: #b7eadc;
+					color: seagreen;
 				}
 
 		#header > nav {
@@ -2789,7 +2792,7 @@ input, select, textarea {
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #5ccfb1;
+					border-top: solid 2px seagreen;
 					display: block;
 					padding: 0;
 				}
@@ -2818,14 +2821,14 @@ input, select, textarea {
 /* Wrapper */
 
 	#wrapper {
-		background: #fff;
+		background: lightgray;
 		padding-right: 23em;
 	}
 
 /* Main */
 
 	#main > section {
-		border-top: solid 6px #f4f4f4;
+		border-top: solid 6px seagreen;
 	}
 
 		#main > section > .container {
@@ -2839,7 +2842,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background: #fafafa;
+		background: rgb(140, 146, 153);
 		border-top: 0;
 		color: #c0c0c0;
 		overflow: hidden;
@@ -3076,7 +3079,7 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:before {
-						background: #4acaa8;
+						background: seagreen;
 						color: #ffffff;
 						content: '\f0c9';
 						display: block;
